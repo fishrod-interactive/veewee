@@ -48,6 +48,8 @@ If you don't use rvm, be sure to execute vagrant through bundle exec
     vagrant basebox define '<boxname>' 'Debian-5.0.8-i386-netboot'
     vagrant basebox define '<boxname>' 'Debian-6.0.3-amd64-netboot'
     vagrant basebox define '<boxname>' 'Debian-6.0.3-i386-netboot'
+	vagrant basebox define '<boxname>' 'CentOS-6.2-i386-symfony2'
+	vagrant basebox define '<boxname>' 'CentOS-6.2-x86_64-minimal'
     vagrant basebox define '<boxname>' 'Fedora-14-amd64'
     vagrant basebox define '<boxname>' 'Fedora-14-amd64-netboot'
     vagrant basebox define '<boxname>' 'Fedora-14-i386'
